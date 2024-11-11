@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5 - Suma de Vectores</title>
+    <script src="../js/ejercicios.js"></script>
+</head>
+<body>
+    <h1>Ejercicio 5: Suma de Vectores</h1>
+    <input type="text" id="vectorA" placeholder="Vector A (ej: 1,2,3)">
+    <input type="text" id="vectorB" placeholder="Vector B (ej: 4,5,6)">
+    <button onclick="sumaVectores(document.getElementById('vectorA').value.split(',').map(Number), document.getElementById('vectorB').value.split(',').map(Number))">Sumar Vectores</button>
+    <button onclick="window.location.href = '../index.html'">Volver</button>
+</body>
+</html>
